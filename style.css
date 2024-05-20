@@ -1,0 +1,346 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333; 
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  background-image: url("img/Vector\(1\).png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333; 
+  font-size: 18px;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.login-btn {
+  background-color: #BDE0FE; 
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.content{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  background-color: #BDE0FE;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+.content .box1{
+  width: 48%;
+  height: 600px;
+  background-color: #BDE0FE;
+}
+.content .box2{
+  width: 48%;
+  height: 600px;
+  background-image: url("img/Image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 516px;
+  height: 549.68px;
+  background-color: #BDE0FE;
+}
+.box1 button{
+  width: 300px;
+  height: 56px;
+  background-color: white;
+  color: black;
+  font-size:20px;
+  border: none;
+
+}
+.box1 h1{
+  font-size: 64px;
+  color: black;
+
+}
+.container-all-cours{
+  width: 100%;
+  height: 1000px;
+}
+.container-all-cours h2{
+  font-size: 45px;
+  color: black;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 2rem;
+}
+.container-all-cours p{
+ font-size: 16px;
+ color: #5D5A6F;
+ text-align: center;
+ margin-top: 2rem;
+}
+.contain-categorie{
+  width: 412px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+.container-box-matiere {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.box {
+  width: calc(25% - 20px); 
+  height: 300px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.1); 
+}
+
+
+.content {
+  position: relative;
+  height: 100%;
+}
+
+.number {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 40px;
+  left: 11.4rem;
+  height: 40px;
+  background-color: #007bff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn {
+  margin-top: auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 30%;
+}
+.btn:hover{
+  background-color: white;
+  border: 1px solid  #007bff;
+  color: black;
+}
+.content h2{
+  position: absolute;
+  color: rgb(0, 0, 0);
+  top: 2rem;
+  font-size: 24px;
+  
+}
+.btn-voire-plus{
+  margin-top: auto;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 10%;
+}
+.btn-voire-plus:hover{
+  background-color: white;
+  border: 1px solid  #007bff;
+  color: black;
+}
+.contain-btn-view-more{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-info-prof{
+  width: 100%;
+  height: 510px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-image{
+  width: 50%;
+  height: 500px;
+  background-image: url("img/femme-blue-color.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+.box-info{
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 3rem;
+}
+.box-info h2{
+  font-size: 45px;
+  color: black;
+  font-weight: lighter;
+}
+.box-info p{
+  font-size: 16px;
+  margin-top: 3rem;
+}
+.subscribe-contain{
+  display: flex;
+  width: 100%;
+  height: 520px;
+  background-image: url("img/Subscribe.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 5rem;
+}
+.partenaire{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
+.partenaire .image{
+  width: 20%;
+  height: 300px;
+  background-image: url("img/logo-simplonSenegal-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center; 
+  box-shadow: 0px 0px 4px 0px rgb(175, 196, 236);
+}
+.nos-partenaires-title{
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+/*  espace footer */
+
+
+footer {
+  background-color:#BDE0FE;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 20px;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #bbb;
+}
